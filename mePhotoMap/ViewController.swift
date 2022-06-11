@@ -11,6 +11,7 @@ import CoreLocationUI
 import RealmSwift
 //import SwiftUI
 class ViewController: UIViewController , CLLocationManagerDelegate,UINavigationControllerDelegate, UIImagePickerControllerDelegate,MKMapViewDelegate{
+
     let realm = try! Realm()
     @IBOutlet var contentView: UIView!
     @IBOutlet var cameraButton: UIButton!
